@@ -1,0 +1,36 @@
+* {
+    background-color: rgb(42, 42, 42);
+    color: rgb(255, 255, 255);
+}
+
+.letterbox {
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 3px solid black;
+
+    font-size: 120px;
+    text-align: center;
+}
+
+div {
+    /* serve per centrare il div */
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    /* fino a qui */
+}
+
+#decrypt {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    padding: 15px 32px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    font-size: 50px;
+}
