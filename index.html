@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+  <link href='/style.css' rel='stylesheet'>
+  <script src="/main.js"></script>
+</head>
+<body>
+  <div>
+    <div>
+      <h1>Inserisci la password per decriptare i file</h1>
+    </div>
+    <div id="inputs">
+      <input type="text" maxlength="1" name="L" id="L" class="letterbox" onKeyUp="moveOnMax(this, 'A')">
+      <input type="text" maxlength="1" name="A" id="A" class="letterbox" onKeyUp="moveOnMax(this, 'D')">
+      <input type="text" maxlength="1" name="D" id="D" class="letterbox" onKeyUp="moveOnMax(this, 'Y')">
+      <input type="text" maxlength="1" name="Y" id="Y" class="letterbox" onKeyUp="moveOnMax(this, 'M')">
+      <input type="text" maxlength="1" name="M" id="M" class="letterbox" onKeyUp="moveOnMax(this, 'n7')">
+      <input type="text" maxlength="1" name="n7" id="n7" class="letterbox" onKeyUp="moveOnMax(this, 'n2')">
+      <input type="text" maxlength="1" name="n2" id="n2" class="letterbox">
+    </div>
+    <br>
+    <div>
+      <button onclick="checkCode()" id="decrypt">Decripta</button>
+    </div>
+  </div>
+</body>
+</html>
