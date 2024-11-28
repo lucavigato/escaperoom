@@ -25,6 +25,15 @@ function moveBackwards() {
     }
 }
 
+function download(url) {
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = url.split('/').pop();
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+
 function checkCode() {
     const ids = ['L', 'A', 'D', 'Y', 'M', 'n7', 'n2'];
     const values = [];
@@ -41,4 +50,10 @@ function checkCode() {
     }
 
     // scarica i file
+
+    download("LICENSE");
+    download("index.html");
+    download("main.js");
+    download("style.css");
+    download("README.md");
 }
