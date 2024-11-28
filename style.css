@@ -34,3 +34,12 @@ div {
     border: none;
     font-size: 50px;
 }
+
+/* new sequence of code */
+/* if it doesn't work, delete the following code */
+
+#total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

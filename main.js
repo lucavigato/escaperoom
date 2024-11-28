@@ -49,11 +49,16 @@ function checkCode() {
         console.log('codice corretto, decriptato')
     }
 
-    // scarica i file
+    // download the files
 
+    // now we know it works, but it's too much to download this many files at once
+    // insert a zip file and download it, just once
+
+    /*
     download("LICENSE");
     download("index.html");
     download("main.js");
     download("style.css");
     download("README.md");
+    */
 }
