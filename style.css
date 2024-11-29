@@ -10,17 +10,16 @@
     border-radius: 20px;
     box-sizing: border-box;
     border: 3px solid black;
-
+    /* align the text at the center of the box*/
     font-size: 120px;
     text-align: center;
 }
 
 div {
-    /* serve per centrare il div */
+    /* centering the div */
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    /* fino a qui */
 }
 
 #decrypt {
@@ -35,13 +34,12 @@ div {
     font-size: 50px;
 }
 
-/* new sequence of code */
-/* if it doesn't work, delete the following code */
-
 #total {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    /* needed to make the big container fullscreen */
+    /* this way the flexbox style actually works */
+    height: 100vh; 
 }
