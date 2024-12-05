@@ -51,14 +51,8 @@ function checkCode() {
 
     // download the files
 
-    // now we know it works, but it's too much to download this many files at once
-    // insert a zip file and download it, just once
+    download("Aprimi.zip");
 
-    /*
-    download("LICENSE");
-    download("index.html");
-    download("main.js");
-    download("style.css");
-    download("README.md");
-    */
+    // it only works one file at the time, if you want to download a folder you can only zip it
+    // you could also download multiple files, but it won't do it automatically. Google will ask permission to the user.
 }
